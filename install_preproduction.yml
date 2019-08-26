@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - '/data/workspace/roles/ansible-role-preproduction-setup'
+
+
